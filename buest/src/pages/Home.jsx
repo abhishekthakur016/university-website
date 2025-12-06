@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Calendar, Users, Award, BookOpen, ChevronLeft, ChevronRight } from 'lucide-react';
 import Button from '../components/Button';
 import Card from '../components/Card';
-import slider1 from "../assets/images/slider1.webp";
-import slider2 from "../assets/images/slider2.webp";
-import slider3 from "../assets/images/slider3.webp";
-import slider4 from "../assets/images/slider4.webp";
-import slider5 from "../assets/images/slider5.webp";
+import slider1 from "../assets/Images/slider1.webp";
+import slider2 from "../assets/Images/slider2.webp";
+import slider3 from "../assets/Images/slider3.webp";
+import slider4 from "../assets/Images/slider4.webp";
+import slider5 from "../assets/Images/slider5.webp";
 
 
 const Home = () => {
