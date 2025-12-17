@@ -112,10 +112,10 @@ const ERPSOP = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-[13rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">ERP Standard Operating Procedures</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">ERP Standard Operating Procedures</h1>
             <p className="text-xl text-gray-200">
               Comprehensive documentation and guidelines for University ERP system usage.
             </p>
@@ -250,11 +250,11 @@ const ERPSOP = () => {
         {/* Support Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Card className="bg-gradient-to-br from-primary to-primary-light text-white" padding="p-8">
-            <h3 className="text-xl font-bold mb-4">Need Training?</h3>
-            <p className="text-primary-light mb-6">
+            <h3 className="text-xl font-bold mb-4 text-white">Need Training?</h3>
+            <p className="text-white mb-6">
               Register for our ERP training sessions conducted weekly.
             </p>
-            <Button variant="secondary" className="bg-white text-primary hover:bg-gray-100">
+            <Button variant="secondary" className="bg-gray text-primary hover:bg-gray-100">
               View Training Schedule
             </Button>
           </Card>

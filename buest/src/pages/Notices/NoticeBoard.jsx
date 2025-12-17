@@ -107,7 +107,7 @@ const NoticeBoard = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-primary to-blue-100 text-white py-[15rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Notice Board</h1>
@@ -126,7 +126,8 @@ const NoticeBoard = () => {
             <Card className="mb-8" padding="p-6">
               <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
                 <div className="relative flex-1">
-                  <Input
+                  <Input 
+                    className="ml-3"
                     placeholder="Search notices..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
@@ -306,8 +307,8 @@ const NoticeBoard = () => {
 
             {/* Subscribe */}
             <Card className="bg-gradient-to-b from-primary to-primary-light text-white" padding="p-6">
-              <h3 className="text-lg font-bold mb-3">Get Notifications</h3>
-              <p className="text-primary-light mb-4">
+              <h3 className="text-lg font-bold mb-3 text-red-400">Get Notifications</h3>
+              <p className="text-white mb-4">
                 Subscribe to receive important notices via email.
               </p>
               <form className="space-y-3">
@@ -319,7 +320,7 @@ const NoticeBoard = () => {
                 <Button
                   type="submit"
                   variant="secondary"
-                  className="w-full bg-white text-primary hover:bg-gray-100"
+                  className="w-full bg-blue text-primary hover:bg-gray-100"
                 >
                   Subscribe
                 </Button>

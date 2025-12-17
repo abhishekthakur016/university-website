@@ -118,7 +118,7 @@ const Emanation2024 = () => {
                 </span>
               </div>
               
-              <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+              <h1 className="text-5xl md:text-7xl font-bold mb-6 text-black leading-tight">
                 Emanation
                 <span className="block text-[#ff7900] mt-2">2024</span>
               </h1>
@@ -199,22 +199,22 @@ const Emanation2024 = () => {
                     <ul className="space-y-2">
                       <li className="flex items-center">
                         <div className="w-2 h-2 bg-[#ff7900] rounded-full mr-3"></div>
-                        <span>Launched the "AI for Social Good" initiative with 25 pilot projects</span>
+                        <span className='text-black '>Launched the "AI for Social Good" initiative with 25 pilot projects</span>
                       </li>
                       <li className="flex items-center">
                         <div className="w-2 h-2 bg-[#ff7900] rounded-full mr-3"></div>
-                        <span>Established Quantum Computing Research Consortium with 15 universities</span>
+                        <span className='text-black '>Established Quantum Computing Research Consortium with 15 universities</span>
                       </li>
                       <li className="flex items-center">
                         <div className="w-2 h-2 bg-[#ff7900] rounded-full mr-3"></div>
-                        <span>Signed 8 international research collaboration agreements</span>
+                        <span className='text-black '>Signed 8 international research collaboration agreements</span>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div className="md:w-1/3 bg-gradient-to-b from-[#10296b] to-[#1e3a8a] p-8 md:p-12 text-white">
-                <h3 className="text-2xl font-bold mb-6">By The Numbers</h3>
+                <h3 className="text-2xl font-bold mb-6 text-white">By The Numbers</h3>
                 <div className="space-y-6">
                   <div>
                     <div className="text-4xl font-bold mb-2">48%</div>
@@ -283,7 +283,7 @@ const Emanation2024 = () => {
           <div className="bg-gradient-to-r from-[#10296b] to-[#1e3a8a] rounded-3xl p-8 md:p-12 text-white">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-10">
               <div>
-                <h2 className="text-3xl font-bold mb-2">Hands-On Workshops</h2>
+                <h2 className="text-3xl font-bold mb-2 text-white">Hands-On Workshops</h2>
                 <p className="text-gray-300">Interactive sessions with industry experts</p>
               </div>
               <button className="mt-4 md:mt-0 px-6 py-3 bg-white text-[#10296b] font-bold rounded-lg hover:bg-gray-100 transition-colors">

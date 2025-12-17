@@ -1,6 +1,8 @@
 import { Calendar, MapPin, Users, Music, Camera, Mic, Award } from 'lucide-react'
 import Card from '../../components/Card'
 import Button from '../../components/Button'
+import { Mail, Phone } from "lucide-react";
+
 
 const Prabandhotsav = () => {
   const eventDetails = {
@@ -57,17 +59,17 @@ const Prabandhotsav = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-purple-50 to-pink-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-purple-700 to-pink-600 text-white py-20">
+      <div className=" bg-gradient-to-r from-blue-100 to-primary-light text-white py-[12rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">{eventDetails.title}</h1>
-            <p className="text-xl text-purple-200 mb-8">{eventDetails.subtitle}</p>
+            <p className="text-xl text-black mb-8">{eventDetails.subtitle}</p>
             
             <div className="flex flex-wrap gap-6">
               <div className="flex items-center">
                 <Calendar className="w-5 h-5 mr-3" />
                 <div>
-                  <div className="text-sm text-purple-300">Date</div>
+                  <div className="text-sm text-white">Date</div>
                   <div className="font-semibold">
                     {new Date(eventDetails.date).toLocaleDateString('en-US', { 
                       weekday: 'long', 
@@ -82,7 +84,7 @@ const Prabandhotsav = () => {
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 mr-3" />
                 <div>
-                  <div className="text-sm text-purple-300">Venue</div>
+                  <div className="text-sm text-white">Venue</div>
                   <div className="font-semibold">{eventDetails.location}</div>
                 </div>
               </div>
@@ -90,7 +92,7 @@ const Prabandhotsav = () => {
               <div className="flex items-center">
                 <Users className="w-5 h-5 mr-3" />
                 <div>
-                  <div className="text-sm text-purple-300">Theme</div>
+                  <div className="text-sm text-white">Theme</div>
                   <div className="font-semibold">{eventDetails.theme}</div>
                 </div>
               </div>
@@ -187,20 +189,20 @@ const Prabandhotsav = () => {
           {/* Sidebar */}
           <div className="space-y-8">
             {/* Registration */}
-            <Card className="bg-gradient-to-b from-purple-700 to-pink-600 text-white" padding="p-8">
+            <Card className="bg-gradient-to-b from-purple-300 to-pink-400 text-white" padding="p-8">
               <h3 className="text-xl font-bold mb-4">Participate Now!</h3>
-              <p className="text-purple-200 mb-6">
+              <p className="text-white mb-6">
                 Register for competitions or get your visitor passes. Limited slots available!
               </p>
               
               <div className="space-y-4">
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-purple-300">Competition Fee</div>
+                  <div className="text-sm text-white">Competition Fee</div>
                   <div className="text-2xl font-bold">$15<span className="text-lg">/entry</span></div>
                 </div>
                 
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-purple-300">Visitor Pass</div>
+                  <div className="text-sm text-white">Visitor Pass</div>
                   <div className="font-semibold">$5/Day or $12/3 Days</div>
                 </div>
               </div>
@@ -208,13 +210,13 @@ const Prabandhotsav = () => {
               <div className="space-y-3 mt-6">
                 <Button
                   variant="secondary"
-                  className="w-full bg-white text-purple-700 hover:bg-gray-100"
+                  className="w-full bg-blue  hover:bg-blue-700"
                 >
                   Register for Competitions
                 </Button>
                 <Button
                   variant="outline"
-                  className="w-full border-white text-white hover:bg-white/10"
+                  className="w-full bg-blue border-blue text-black hover:bg-blue/10"
                 >
                   Buy Visitor Pass
                 </Button>

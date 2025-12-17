@@ -1,6 +1,8 @@
 import { Calendar, MapPin, Users, Trophy, Award, Activity, Clock } from 'lucide-react'
 import Card from '../../components/Card'
 import Button from '../../components/Button'
+import { Mail, Phone } from "lucide-react";
+
 
 const InterDepartmentSports = () => {
   const eventDetails = {
@@ -47,17 +49,17 @@ const InterDepartmentSports = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-700 to-blue-900 text-white py-20">
+      <div className="bg-gradient-to-r from-blue-100 to-primary-light text-white py-[13rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">{eventDetails.title}</h1>
-            <p className="text-xl text-blue-200 mb-8">{eventDetails.subtitle}</p>
+            <p className="text-xl text-black mb-8">{eventDetails.subtitle}</p>
             
             <div className="flex flex-wrap gap-6">
               <div className="flex items-center">
-                <Calendar className="w-5 h-5 mr-3" />
+                <Calendar className="w-5 h-5 " />
                 <div>
-                  <div className="text-sm text-blue-300">Dates</div>
+                  <div className="text-sm text-white mt-5 ">Dates</div>
                   <div className="font-semibold">{eventDetails.dates}</div>
                 </div>
               </div>
@@ -65,23 +67,23 @@ const InterDepartmentSports = () => {
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 mr-3" />
                 <div>
-                  <div className="text-sm text-blue-300">Venue</div>
+                  <div className="text-sm text-white mt-5">Venue</div>
                   <div className="font-semibold">{eventDetails.location}</div>
                 </div>
               </div>
               
               <div className="flex items-center">
-                <Users className="w-5 h-5 mr-3" />
+                <Users className="w-5 h-5 mr-3 mt-10" />
                 <div>
-                  <div className="text-sm text-blue-300">Departments</div>
+                  <div className="text-m text-white mt-5">Departments</div>
                   <div className="font-semibold">{eventDetails.participatingDepartments}</div>
                 </div>
               </div>
               
               <div className="flex items-center">
-                <Activity className="w-5 h-5 mr-3" />
+                <Activity className="w-5 h-5 mr-2 mt-10" />
                 <div>
-                  <div className="text-sm text-blue-300">Events</div>
+                  <div className="text-sm text-white mt-5 ">Events</div>
                   <div className="font-semibold">{eventDetails.totalEvents}</div>
                 </div>
               </div>
@@ -205,19 +207,19 @@ const InterDepartmentSports = () => {
               
               <div className="space-y-4">
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-blue-300">Last Date</div>
-                  <div className="font-semibold">December 10, 2024</div>
+                  <div className="text-sm text-white">Last Date</div>
+                  <div className="font-bold">December 10, 2024</div>
                 </div>
                 
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-blue-300">Team Size</div>
-                  <div className="font-semibold">Minimum 15 players/department</div>
+                  <div className="text-sm text-white">Team Size</div>
+                  <div className="font-bold">Minimum 15 players/department</div>
                 </div>
               </div>
               
               <Button
                 variant="secondary"
-                className="w-full mt-6 bg-white text-blue-700 hover:bg-gray-100"
+                className="w-full mt-6 bg-blue text-blue-700 hover:bg-gray-100"
               >
                 Register Your Team
               </Button>

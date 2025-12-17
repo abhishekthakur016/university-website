@@ -2,6 +2,8 @@ import { Calendar, MapPin, Users, GraduationCap, Award, Clock } from 'lucide-rea
 import Card from '../../components/Card'
 import Button from '../../components/Button'
 import { Link } from 'react-router-dom'
+import { Mail, Phone } from "lucide-react";
+
 
 const Convocation = () => {
   const convocationDetails = {
@@ -41,7 +43,7 @@ const Convocation = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-primary-light to-blue-100 text-white py-[15rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">{convocationDetails.title}</h1>
@@ -203,11 +205,11 @@ const Convocation = () => {
 
             {/* Live Streaming */}
             <Card className="bg-gradient-to-b from-primary to-primary-light text-white" padding="p-6">
-              <h3 className="text-lg font-bold mb-3">Live Streaming</h3>
-              <p className="text-primary-light mb-4">
+              <h3 className="text-lg font-bold mb-3 text-white">Live Streaming</h3>
+              <p className="text-primary-light text-white mb-4">
                 Can't attend in person? Watch the ceremony live online.
               </p>
-              <Button variant="secondary" className="w-full bg-white text-primary hover:bg-gray-100">
+              <Button variant="secondary" className="w-full bg-blue text-primary hover:bg-gray-100">
                 Watch Live
               </Button>
             </Card>

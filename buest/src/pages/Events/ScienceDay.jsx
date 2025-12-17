@@ -113,7 +113,7 @@ const ScienceDay = () => {
               <div className="w-3 h-3 bg-green-400 rounded-full"></div>
             </div>
             
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-black">
               National Science Day
               <span className="block text-3xl md:text-4xl font-light mt-4 text-blue-200">
                 Celebrating the Spirit of Discovery
@@ -196,7 +196,7 @@ const ScienceDay = () => {
               <div className="md:w-1/3 bg-gradient-to-b from-[#10296b] to-blue-800 p-8 md:p-12 text-white">
                 <div className="text-center mb-8">
                   <div className="text-6xl mb-4">🔬</div>
-                  <h3 className="text-2xl font-bold">Sir C.V. Raman</h3>
+                  <h3 className="text-2xl font-bold text-white">Sir C.V. Raman</h3>
                   <p className="text-blue-200">Nobel Laureate 1930</p>
                 </div>
                 <div className="space-y-6">
@@ -249,7 +249,7 @@ const ScienceDay = () => {
         <div className="max-w-6xl mx-auto mb-20">
           <div className="bg-gradient-to-r from-[#10296b] to-blue-800 rounded-3xl p-8 md:p-12 text-white">
             <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold mb-4">Science Clubs & Societies</h2>
+              <h2 className="text-3xl font-bold mb-4 text-black">Science Clubs & Societies</h2>
               <p className="text-blue-200">Student-led initiatives driving scientific curiosity</p>
             </div>
             
@@ -320,7 +320,7 @@ const ScienceDay = () => {
         <div className="max-w-6xl mx-auto mb-20">
           <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
             <div className="bg-gradient-to-r from-[#10296b] to-blue-800 p-8 text-white">
-              <h2 className="text-3xl font-bold mb-2">Student Innovation Projects</h2>
+              <h2 className="text-3xl font-bold mb-2 text-white">Student Innovation Projects</h2>
               <p className="text-blue-200">Showcasing the brightest ideas from our students</p>
             </div>
             

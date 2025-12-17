@@ -126,10 +126,10 @@ const OnlineGrievance = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-[13rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Online Grievance Portal</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Online Grievance Portal</h1>
             <p className="text-xl text-gray-200">
               Submit your grievances online for prompt resolution and tracking.
             </p>
@@ -158,7 +158,7 @@ const OnlineGrievance = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="John Doe"
+                    placeholder="Enter your full name"
                     required
                   />
                   <Input
@@ -167,7 +167,7 @@ const OnlineGrievance = () => {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="john@example.com"
+                    placeholder="Enter your email"
                     required
                   />
                   <Input
@@ -176,7 +176,7 @@ const OnlineGrievance = () => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    placeholder="+1 (555) 123-4567"
+                    placeholder="Enter your phone number"
                     required
                   />
                   <Input
@@ -184,7 +184,7 @@ const OnlineGrievance = () => {
                     name="studentId"
                     value={formData.studentId}
                     onChange={handleChange}
-                    placeholder="2024XXXXX"
+                    placeholder=" Student id - 2024XXXXX"
                   />
                   <div className="md:col-span-2">
                     <Input

@@ -45,17 +45,17 @@ const Lakshya = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className=" text-black py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">{eventDetails.title}</h1>
-            <p className="text-xl text-gray-200 mb-8">{eventDetails.theme}</p>
+            <p className="text-xl text-gray`-200 mb-8">{eventDetails.theme}</p>
             
             <div className="flex flex-wrap gap-6">
               <div className="flex items-center">
                 <Calendar className="w-5 h-5 mr-3" />
                 <div>
-                  <div className="text-sm text-gray-300">Date</div>
+                  <div className="text-sm text-blue-800">Date</div>
                   <div className="font-semibold">
                     {new Date(eventDetails.date).toLocaleDateString('en-US', { 
                       weekday: 'long', 
@@ -70,7 +70,7 @@ const Lakshya = () => {
               <div className="flex items-center">
                 <Clock className="w-5 h-5 mr-3" />
                 <div>
-                  <div className="text-sm text-gray-300">Time</div>
+                  <div className="text-sm text-blue-800">Time</div>
                   <div className="font-semibold">{eventDetails.time}</div>
                 </div>
               </div>
@@ -78,7 +78,7 @@ const Lakshya = () => {
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 mr-3" />
                 <div>
-                  <div className="text-sm text-gray-300">Venue</div>
+                  <div className="text-sm text-blue-800">Venue</div>
                   <div className="font-semibold">{eventDetails.location}</div>
                 </div>
               </div>
@@ -86,7 +86,7 @@ const Lakshya = () => {
               <div className="flex items-center">
                 <Users className="w-5 h-5 mr-3" />
                 <div>
-                  <div className="text-sm text-gray-300">Organizer</div>
+                  <div className="text-sm text-blue-800">Organizer</div>
                   <div className="font-semibold">{eventDetails.organizer}</div>
                 </div>
               </div>
@@ -100,8 +100,8 @@ const Lakshya = () => {
           {/* Main Content */}
           <div className="lg:col-span-2">
             {/* Event Description */}
-            <Card className="mb-8" padding="p-8">
-              <h2 className="text-2xl font-bold text-primary mb-6">About Lakshya</h2>
+            <Card className="mb-8"  padding="p-8">
+              <h2 className="text-4xl  font-bold text-primary mb-6">About Lakshya</h2>
               <p className="text-gray-700 mb-6 text-lg leading-relaxed">
                 {eventDetails.description}
               </p>
@@ -167,9 +167,9 @@ const Lakshya = () => {
           {/* Sidebar */}
           <div className="space-y-8">
             {/* Registration Card */}
-            <Card className="bg-gradient-to-b from-primary to-primary-light text-white" padding="p-8">
+            <Card className="bg-orange-500 text-white" padding="p-8">
               <h3 className="text-xl font-bold mb-4">Register Now!</h3>
-              <p className="text-primary-light mb-6">
+              <p className="text-primary-light- mb-6">
                 Don't miss this opportunity to showcase your skills and learn from the best.
               </p>
               
@@ -187,7 +187,7 @@ const Lakshya = () => {
               
               <Button
                 variant="secondary"
-                className="w-full mt-6 bg-white text-primary hover:bg-gray-100"
+                className="w-full mt-6 bg-blue-500 text-primary hover:bg-gray-100"
               >
                 Register Online
               </Button>

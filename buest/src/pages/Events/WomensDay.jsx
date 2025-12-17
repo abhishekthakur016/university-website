@@ -33,7 +33,7 @@ const WomensDay = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-pink-600 to-purple-700 text-white py-20">
+      <div className="bg-gradient-to-r from-pink-500 to-purple-100 text-white py-[15rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">{eventDetails.title}</h1>
@@ -157,18 +157,18 @@ const WomensDay = () => {
             {/* Registration */}
             <Card className="bg-gradient-to-b from-pink-600 to-purple-700 text-white" padding="p-8">
               <h3 className="text-xl font-bold mb-4">Join the Celebration</h3>
-              <p className="text-pink-200 mb-6">
+              <p className="text-white mb-6">
                 Open to all students, faculty, staff, and community members.
               </p>
               
               <div className="space-y-4">
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-pink-300">Event Fee</div>
+                  <div className="text-sm text-white">Event Fee</div>
                   <div className="text-2xl font-bold">Free<span className="text-lg"> admission</span></div>
                 </div>
                 
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-pink-300">Registration</div>
+                  <div className="text-sm text-white">Registration</div>
                   <div className="font-semibold">Recommended for planning</div>
                 </div>
               </div>

@@ -70,10 +70,10 @@ const Alumni = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-[13rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Alumni Network</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Alumni Network</h1>
             <p className="text-xl text-gray-200">
               Connecting generations of graduates worldwide. Stay connected, give back, and grow together.
             </p>
@@ -266,8 +266,8 @@ const Alumni = () => {
 
             {/* Newsletter */}
             <Card className="bg-gradient-to-b from-primary to-primary-light text-white" padding="p-6">
-              <h3 className="text-lg font-bold mb-3">Alumni Newsletter</h3>
-              <p className="text-primary-light mb-4">
+              <h3 className="text-lg font-bold mb-3 text-white">Alumni Newsletter</h3>
+              <p className="text-white mb-4">
                 Stay updated with university news and alumni achievements.
               </p>
               <form className="space-y-3">
@@ -279,7 +279,7 @@ const Alumni = () => {
                 <Button
                   type="submit"
                   variant="secondary"
-                  className="w-full bg-white text-primary hover:bg-gray-100"
+                  className="w-full bg-blue text-primary hover:bg-gray-100"
                 >
                   Subscribe
                 </Button>

@@ -19,19 +19,19 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Visit Us",
-      details: ["University Road, Academic City", "State - 123456", "Country"],
+      details: ["Address: Baddi University of Emerging Sci. & Tech. Makhnumajra, Baddi, Distt. Solan, H.P.-173205"],
       color: "bg-blue-100 text-blue-600"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Call Us",
-      details: ["+1 (555) 123-4567", "+1 (555) 987-6543 (Admissions)", "Mon-Fri: 9AM-5PM"],
+      details: ["+1800-123-0927", "+ 01795-247352 (Admissions)", "Mon-Fri: 9AM-5PM"],
       color: "bg-green-100 text-green-600"
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email Us",
-      details: ["info@university.edu", "admissions@university.edu", "support@university.edu"],
+      details: ["Careers@BUEST", "baddiuniversity.edu", "baddisupport@university.edu"],
       color: "bg-purple-100 text-purple-600"
     },
     {
@@ -84,10 +84,10 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-blue-100 to-primary-light text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
-          <p className="text-xl text-gray-200 max-w-3xl mx-auto">
+          <p className="text-xl text-blue-900 max-w-3xl mx-auto">
             Get in touch with us. We're here to help and answer any questions you might have.
           </p>
         </div>
@@ -128,7 +128,7 @@ const Contact = () => {
                 <div className="space-y-2">
                   <div className="flex items-center">
                     <Phone className="w-5 h-5 text-red-600 mr-3" />
-                    <span className="text-red-700 font-semibold">Emergency Hotline: +1 (555) 911-9111</span>
+                    <span className="text-red-700 font-semibold">Emergency Hotline: 1800-123-0927</span>
                   </div>
                   <p className="text-red-600 text-sm">
                     Available 24/7 for campus emergencies only.
@@ -165,7 +165,7 @@ const Contact = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="John Doe"
+                      placeholder="Enter you name"
                       required
                     />
                     <Input
@@ -174,7 +174,7 @@ const Contact = () => {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="john@example.com"
+                      placeholder="Enter your email"
                       required
                     />
                   </div>
@@ -186,7 +186,7 @@ const Contact = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="Enter your phone number"
                     />
                     <Input
                       label="Subject"
@@ -269,22 +269,20 @@ const Contact = () => {
             </div>
 
             {/* Map Location */}
-            <div className="mt-8">
-              <Card title="Our Location" padding="p-6">
-                <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
-                  <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-primary/20 to-primary-light/20">
-                    <div className="text-center">
-                      <MapPin className="w-12 h-12 text-primary mx-auto mb-4" />
-                      <h3 className="text-xl font-bold text-primary mb-2">University Campus</h3>
-                      <p className="text-gray-600">University Road, Academic City</p>
-                      <Button variant="outline" size="small" className="mt-4">
-                        Get Directions
-                      </Button>
-                    </div>
-                  </div>
-                </div>
-              </Card>
-            </div>
+           <div className="mt-8">
+  <Card title="Our Location" padding="p-6">
+    <div className="aspect-video rounded-lg overflow-hidden border">
+      <iframe
+        title="University Location"
+        src="https://www.google.com/maps?q=30.95266882537964,76.7760514518512&z=16&output=embed"
+        className="w-full h-full border-0"
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      />
+    </div>
+  </Card>
+</div>
+
           </div>
         </div>
       </div>

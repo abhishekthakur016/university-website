@@ -79,9 +79,9 @@ const Navbar = () => {
         <div className="container mx-auto px-4 ">
           <div className="flex items-center justify-between ">
             {/* Logo */}
-            <Link to="slider" className="flex items-center space-x-9 mr-1 ml-1 gap-0">
+            <Link to="slider" className="flex items-center space-x-9 mr-7 gap-0">
               {/* Logo Image Circle */}
-              <div className="w-15 h-16 bg-white rounded-full overflow-hidden flex items-center justify-center">
+              <div className="w-15 h-20 bg-white rounded-full overflow-hidden flex items-center justify-center">
                 <img
                   src={Logo}
                   alt="Logo"
@@ -90,7 +90,7 @@ const Navbar = () => {
               </div>
 
               {/* University Text */}
-              <div className="flex flex-col p-2 ">
+              <div className="flex flex-col leading-tight ml-0.5">
                 <span
                   className={`text-x font-bold ${
                     isScrolled ? "text-primary" : "text-white"
@@ -118,7 +118,7 @@ const Navbar = () => {
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-10.5  text-xs gap-2">
+            <div className="hidden lg:flex items-center space-x-10.5  text-l  gap-2">
               <Link
                 to="/"
                 className={`px-3 py-2 rounded-lg font-medium transition-colors ${
@@ -195,7 +195,7 @@ const Navbar = () => {
                 Contact
               </Link>
 
-              <div className="ml-7 flex items-center gap-1  text-xs space-x-3 ">
+              <div className="ml-7 flex items-center gap-1  text-xs  space-x-3 ">
                 <Link
                   to="/student-login"
                   className={`px-4 py-1 rounded-md font-medium transition-colors ml-3 ${

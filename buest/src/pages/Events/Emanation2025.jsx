@@ -17,11 +17,11 @@ const Emanation2025 = () => {
 
   const tracks = [
     { name: "Healthcare AI", sessions: 8, chair: "Dr. Sarah Chen" },
-    { name: "Education Technology", sessions: 6, chair: "Prof. James Wilson" },
-    { name: "Environmental AI", sessions: 7, chair: "Dr. Maria Garcia" },
-    { name: "Social Justice & Ethics", sessions: 5, chair: "Prof. David Kim" },
-    { name: "Economic Development", sessions: 6, chair: "Dr. Priya Patel" },
-    { name: "Public Policy", sessions: 4, chair: "Prof. Robert Smith" }
+    { name: "Education Technology", sessions: 6, chair: "Prof. James" },
+    { name: "Nature and AI", sessions: 7, chair: "Dr. Maria Garcia" },
+    { name: "Social & Ethics", sessions: 5, chair: "Prof. David Kim" },
+    { name: "Economic Dev.", sessions: 6, chair: "Dr. Priya Patel" },
+    { name: "Public Policy", sessions: 4, chair: "Prof. Robert " }
   ]
 
   const keynoteSpeakers = [
@@ -33,7 +33,7 @@ const Emanation2025 = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-blue-200 to-primary-light text-white py-[12rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">{eventDetails.title}</h1>
@@ -131,12 +131,12 @@ const Emanation2025 = () => {
             <Card padding="p-8">
               <h2 className="text-2xl font-bold text-primary mb-6">Research Tracks</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {tracks.map((track, index) => (
+                {tracks.map((track,index) => (
                   <div key={index} className="border border-gray-200 rounded-xl p-6 hover:border-primary transition-colors">
                     <div className="flex items-center justify-between mb-4">
                       <h3 className="font-bold text-gray-900">{track.name}</h3>
-                      <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold">
-                        {track.sessions} sessions
+                      <span className="px-2 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold">
+                        {track.sessions}
                       </span>
                     </div>
                     <div className="text-sm text-gray-600 mb-3">
@@ -155,20 +155,20 @@ const Emanation2025 = () => {
           <div className="space-y-8">
             {/* Registration */}
             <Card className="bg-gradient-to-b from-primary to-primary-light text-white" padding="p-8">
-              <h3 className="text-xl font-bold mb-4">Submit Your Research</h3>
-              <p className="text-primary-light mb-6">
+              <h3 className="text-xl font-bold mb-4 text-white">Submit Your Research</h3>
+              <p className="text-white mb-6">
                 Present your research at Emanation 2025. Submit abstracts by October 31, 2025.
               </p>
               
               <div className="space-y-4">
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-gray-300">Registration Types</div>
-                  <div className="font-semibold">Student: $50 | Academic: $100 | Industry: $200</div>
+                  <div className="text-sm text-white">Registration Types</div>
+                  <div className="font-bold text-white">Student: $50 | Academic: $100 | Industry: $200</div>
                 </div>
                 
                 <div className="bg-white/10 p-4 rounded-lg">
                   <div className="text-sm text-gray-300">Abstract Deadline</div>
-                  <div className="font-semibold">
+                  <div className="font-bold text-white">
                     {new Date(eventDetails.registrationDeadline).toLocaleDateString()}
                   </div>
                 </div>
@@ -177,7 +177,7 @@ const Emanation2025 = () => {
               <div className="space-y-3 mt-6">
                 <Button
                   variant="secondary"
-                  className="w-full bg-white text-primary hover:bg-gray-100"
+                  className="w-full bg-blue text-primary hover:bg-gray-100"
                 >
                   Submit Abstract
                 </Button>

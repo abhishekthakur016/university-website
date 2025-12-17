@@ -38,7 +38,7 @@ const Convocation2025 = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-primary-light to-blue-100 text-white py-[12rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">{eventDetails.title}</h1>
@@ -159,26 +159,26 @@ const Convocation2025 = () => {
           <div className="space-y-8">
             {/* Registration */}
             <Card className="bg-gradient-to-b from-primary to-primary-light text-white" padding="p-8">
-              <h3 className="text-xl font-bold mb-4">Graduate Registration</h3>
-              <p className="text-primary-light mb-6">
+              <h3 className="text-xl font-bold mb-4 text-white">Graduate Registration</h3>
+              <p className="text-white mb-6">
                 All graduating students must register for the convocation ceremony.
               </p>
               
               <div className="space-y-4">
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-gray-300">Registration Deadline</div>
-                  <div className="font-semibold">January 31, 2025</div>
+                  <div className="text-sm text-white">Registration Deadline</div>
+                  <div className="font-bold">January 31, 2025</div>
                 </div>
                 
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-gray-300">Gown Collection</div>
-                  <div className="font-semibold">February 10-14, 2025</div>
+                  <div className="text-sm text-white">Gown Collection</div>
+                  <div className="font-bold">February 10-14, 2025</div>
                 </div>
               </div>
               
               <Button
                 variant="secondary"
-                className="w-full mt-6 bg-white text-primary hover:bg-gray-100"
+                className="w-full mt-6 bg-blue text-primary hover:bg-gray-100"
               >
                 Register Now
               </Button>

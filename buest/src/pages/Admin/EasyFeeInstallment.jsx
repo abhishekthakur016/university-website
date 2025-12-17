@@ -72,11 +72,11 @@ const EasyFeeInstallment = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-[13rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Easy Fee Installment Plan</h1>
-            <p className="text-xl text-gray-200">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Easy Fee Installment Plan</h1>
+            <p className="text-xl text-white">
               Flexible payment options to make quality education more accessible.
             </p>
           </div>
@@ -249,26 +249,26 @@ const EasyFeeInstallment = () => {
           <div className="space-y-8">
             {/* Apply Now */}
             <Card className="bg-gradient-to-b from-primary to-primary-light text-white" padding="p-8">
-              <h3 className="text-xl font-bold mb-4">Apply Now</h3>
-              <p className="text-primary-light mb-6">
+              <h3 className="text-xl font-bold mb-4 text-white">Apply Now</h3>
+              <p className="text-red-500 mb-6">
                 Submit your installment plan application online.
               </p>
               
               <div className="space-y-4">
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-primary-light">Processing Time</div>
-                  <div className="font-semibold">24-48 Hours</div>
+                  <div className="text-sm text-white">Processing Time</div>
+                  <div className="font-semibold text-white">24-48 Hours</div>
                 </div>
                 
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-primary-light">Required Documents</div>
-                  <div className="font-semibold">Student ID, Fee Invoice</div>
+                  <div className="text-sm text-white">Required Documents</div>
+                  <div className="font-semibold text-white">Student ID, Fee Invoice</div>
                 </div>
               </div>
               
               <Button
                 variant="secondary"
-                className="w-full mt-6 bg-white text-primary hover:bg-gray-100"
+                className="w-full mt-6 bg-blue text-primary hover:bg-gray-100"
               >
                 Apply for Installment Plan
               </Button>

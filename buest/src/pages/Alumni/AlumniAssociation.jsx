@@ -47,10 +47,10 @@ const AlumniAssociation = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-[13rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Alumni Association</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Alumni Association</h1>
             <p className="text-xl text-gray-200">
               Strengthening bonds, fostering growth, and building a legacy together.
             </p>
@@ -165,26 +165,26 @@ const AlumniAssociation = () => {
           <div className="space-y-8">
             {/* Join Association */}
             <Card className="bg-gradient-to-b from-primary to-primary-light text-white" padding="p-8">
-              <h3 className="text-xl font-bold mb-4">Become a Member</h3>
-              <p className="text-primary-light mb-6">
+              <h3 className="text-xl font-bold mb-4 text-white">Become a Member</h3>
+              <p className="text-white mb-6">
                 Join our global network and enjoy exclusive benefits.
               </p>
               
               <div className="space-y-4">
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-primary-light">Annual Membership</div>
-                  <div className="text-2xl font-bold">$50<span className="text-lg">/year</span></div>
+                  <div className="text-sm text-black">Annual Membership</div>
+                  <div className="text-2xl font-bold text-white" >$50<span className="text-lg">/year</span></div>
                 </div>
                 
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-primary-light">Lifetime Membership</div>
-                  <div className="font-semibold">$500 (One-time)</div>
+                  <div className="text-sm text-black">Lifetime Membership</div>
+                  <div className="font-semibold text-white">$500 (One-time)</div>
                 </div>
               </div>
               
               <Button
                 variant="secondary"
-                className="w-full mt-6 bg-white text-primary hover:bg-gray-100"
+                className="w-full mt-6 bg-blue text-primary hover:bg-gray-100"
               >
                 Join Now
               </Button>

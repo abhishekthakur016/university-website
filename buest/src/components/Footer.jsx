@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-bold">University Portal</h3>
+                <h3 className="text-xl text-[#ff7900]   font-bold">University Portal</h3>
                 <p className="text-gray-300 text-sm">Excellence in Education Since 1950</p>
               </div>
             </div>
@@ -49,7 +49,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-bold mb-6">Quick Links</h3>
+            <h3 className="text-lg text-[#ff7900] font-bold mb-6">Quick Links</h3>
             <ul className="space-y-3">
               {quickLinks.map((link, index) => (
                 <li key={index}>
@@ -67,7 +67,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-bold mb-6">Contact Info</h3>
+            <h3 className="text-lg text-[#ff7900]  font-bold mb-6">Contact Info</h3>
             <ul className="space-y-4">
               {contactInfo.map((item, index) => (
                 <li key={index} className="flex items-start space-x-3">
@@ -82,7 +82,7 @@ const Footer = () => {
 
           {/* Newsletter */}
           <div>
-            <h3 className="text-lg font-bold mb-6">Newsletter</h3>
+            <h3 className="text-lg text-[#ff7900]  font-bold mb-6 ">Newsletter</h3>
             <p className="text-gray-300 mb-4">
               Subscribe to our newsletter for the latest updates and announcements.
             </p>
@@ -127,4 +127,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

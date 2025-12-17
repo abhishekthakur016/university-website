@@ -76,10 +76,10 @@ const OurTeam = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-[13rem]">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Team</h1>
+          <div className="max-w-4xl flex flex-col items-center text-center mx-auto">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Our Team</h1>
             <p className="text-xl text-gray-200">
               Meet the dedicated professionals working to strengthen our alumni community and support your journey.
             </p>
@@ -187,26 +187,26 @@ const OurTeam = () => {
           <div className="space-y-8">
             {/* Contact Office */}
             <Card className="bg-gradient-to-b from-primary to-primary-light text-white" padding="p-8">
-              <h3 className="text-xl font-bold mb-4">Contact Our Office</h3>
-              <p className="text-primary-light mb-6">
+              <h3 className="text-xl font-bold mb-4 text-center text-white">Contact Our Office</h3>
+              <p className="text-white mb-6">
                 Reach out to us for any alumni-related queries or support.
               </p>
               
               <div className="space-y-4">
                 <div className="bg-white/10 p-4 rounded-lg">
                   <div className="text-sm text-gray-300">Office Hours</div>
-                  <div className="font-semibold">Mon-Fri: 9AM-5PM</div>
+                  <div className="font-semibold text-gray-300">Mon-Fri: 9AM-5PM</div>
                 </div>
                 
                 <div className="bg-white/10 p-4 rounded-lg">
                   <div className="text-sm text-gray-300">Location</div>
-                  <div className="font-semibold">Alumni Center, Building A</div>
+                  <div className="font-semibold text-gray-300">Alumni Center, Building A</div>
                 </div>
               </div>
               
               <Button
                 variant="secondary"
-                className="w-full mt-6 bg-white text-primary hover:bg-gray-100"
+                className="w-full mt-6 bg-blue text-primary hover:bg-gray-100"
               >
                 Schedule Appointment
               </Button>

@@ -1,6 +1,8 @@
 import { Calendar, MapPin, Users, Heart, Clock, Award } from 'lucide-react'
 import Card from '../../components/Card'
 import Button from '../../components/Button'
+import { Mail, Phone } from "lucide-react";
+
 
 const NSSUnit = () => {
   const eventDetails = {
@@ -57,7 +59,7 @@ const NSSUnit = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-green-600 to-green-800 text-white py-20">
+      <div className="bg-gradient-to-r from-green-800 to-green-100 text-white py-[15rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">{eventDetails.title}</h1>
@@ -156,27 +158,27 @@ const NSSUnit = () => {
           {/* Sidebar */}
           <div className="space-y-8">
             {/* Join NSS */}
-            <Card className="bg-gradient-to-b from-green-600 to-green-800 text-white" padding="p-8">
+            <Card className="bg-gradient-to-b from-green-100 to-green-800 text-white" padding="p-8">
               <h3 className="text-xl font-bold mb-4">Join NSS</h3>
-              <p className="text-green-200 mb-6">
+              <p className="text-blue -200 mb-6">
                 Become a volunteer and make a difference in society. Register now!
               </p>
               
               <div className="space-y-4">
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-green-300">Eligibility</div>
+                  <div className="text-sm font-bold text-green-800">Eligibility</div>
                   <div className="font-semibold">All University Students</div>
                 </div>
                 
                 <div className="bg-white/10 p-4 rounded-lg">
-                  <div className="text-sm text-green-300">Volunteer Hours</div>
+                  <div className="text-sm font-bold text-green-800">Volunteer Hours</div>
                   <div className="font-semibold">120 hours/year required</div>
                 </div>
               </div>
               
               <Button
                 variant="secondary"
-                className="w-full mt-6 bg-white text-green-700 hover:bg-gray-100"
+                className="w-full mt-6 bg-blue text-green-700 hover:bg-gray-100"
               >
                 Register as Volunteer
               </Button>

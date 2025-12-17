@@ -57,10 +57,10 @@ const ERP = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-[13rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Enterprise Resource Planning (ERP)</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Enterprise Resource Planning (ERP)</h1>
             <p className="text-xl text-gray-200">
               Integrated management system for seamless university operations and administration.
             </p>
@@ -212,21 +212,21 @@ const ERP = () => {
             {/* Training & Support */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
               <Card className="bg-gradient-to-br from-primary to-primary-light text-white" padding="p-6">
-                <h3 className="text-lg font-bold mb-4">Training Sessions</h3>
-                <p className="text-primary-light mb-4">
+                <h3 className="text-lg font-bold mb-4 text-white ">Training Sessions</h3>
+                <p className="text-white mb-4">
                   Join our weekly ERP training sessions for staff and faculty.
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-center justify-between p-3 bg-white/10 rounded-lg">
-                    <span>Basic ERP Navigation</span>
-                    <span className="text-sm">Every Monday</span>
+                    <span className='text-white'>Basic ERP Navigation</span>
+                    <span className="text-sm text-red-400">Every Monday</span>
                   </div>
                   <div className="flex items-center justify-between p-3 bg-white/10 rounded-lg">
-                    <span>Advanced Reporting</span>
-                    <span className="text-sm">Every Wednesday</span>
+                    <span className='text-white'>Advanced Reporting</span>
+                    <span className="text-sm text-red-400">Every Wednesday</span>
                   </div>
                 </div>
-                <Button variant="secondary" className="w-full mt-4 bg-white text-primary hover:bg-gray-100">
+                <Button variant="secondary" className="w-full mt-4 bg-blue text-primary hover:bg-gray-100">
                   Register for Training
                 </Button>
               </Card>

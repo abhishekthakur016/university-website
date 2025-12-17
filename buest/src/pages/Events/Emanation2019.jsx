@@ -43,7 +43,7 @@ const Emanation2019 = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-[#10296b] to-[#1e3a8a] text-white py-16">
+      <div className="relative bg-gradient-to-r from-blue-200 to-[#1e3a8a] text-white py-[6rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-[#ff7900] rounded-full mb-6">
@@ -160,7 +160,7 @@ const Emanation2019 = () => {
 
         {/* Legacy Impact */}
         <div className="bg-gradient-to-r from-[#10296b] to-[#2d4a9c] rounded-2xl p-8 text-white">
-          <h2 className="text-3xl font-bold mb-6">Legacy & Impact</h2>
+          <h2 className="text-3xl font-bold mb-6 text-white">Legacy & Impact</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <div className="text-4xl font-bold mb-2">8</div>

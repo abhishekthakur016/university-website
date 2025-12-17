@@ -3,6 +3,8 @@ import { User, Mail, Phone, MapPin, Calendar, Briefcase, GraduationCap, CheckCir
 import Card from '../../components/Card'
 import Button from '../../components/Button'
 import Input from '../../components/Input'
+import { Users } from "lucide-react";
+
 
 const MembershipForm = () => {
   const [formData, setFormData] = useState({
@@ -117,7 +119,7 @@ const MembershipForm = () => {
                 name="firstName"
                 value={formData.firstName}
                 onChange={handleChange}
-                placeholder="John"
+                placeholder="Enter the name"
                 startIcon={<User className="w-5 h-5" />}
                 required
               />
@@ -126,7 +128,7 @@ const MembershipForm = () => {
                 name="lastName"
                 value={formData.lastName}
                 onChange={handleChange}
-                placeholder="Doe"
+                placeholder="Enter the Last Name"
                 required
               />
               <Input
@@ -135,7 +137,7 @@ const MembershipForm = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="john.doe@example.com"
+                placeholder="Enter your mail"
                 startIcon={<Mail className="w-5 h-5" />}
                 required
               />
@@ -145,7 +147,7 @@ const MembershipForm = () => {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                placeholder="+1 (555) 123-4567"
+                placeholder="Enter your ph. no"
                 startIcon={<Phone className="w-5 h-5" />}
                 required
               />
@@ -498,10 +500,10 @@ const MembershipForm = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-primary to-primary-light text-white  py-[10rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Alumni Membership Form</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Alumni Membership Form</h1>
             <p className="text-xl text-gray-200">
               Join our global alumni network and enjoy exclusive benefits, connections, and opportunities.
             </p>

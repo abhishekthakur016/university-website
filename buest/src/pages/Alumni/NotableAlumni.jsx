@@ -108,10 +108,10 @@ const NotableAlumni = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-[13rem]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Notable Alumni</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Notable Alumni</h1>
             <p className="text-xl text-gray-200">
               Celebrating our graduates who have made significant contributions to society and their fields.
             </p>
@@ -121,7 +121,7 @@ const NotableAlumni = () => {
 
       <div className="container mx-auto px-4 py-12">
         {/* Filters */}
-        <Card className="mb-8" padding="p-6">
+        <Card className="mb-8" padding="p-1">
           <div className="flex flex-col md:flex-row gap-4 items-center justify-between">
             <div className="flex items-center gap-2">
               <Filter className="text-gray-600" />

@@ -114,11 +114,11 @@ const ActivityUpdates = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-primary to-primary-light text-white py-20">
+      <div className=" bg-gradient-to-r from-blue-100 to-primary-light text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Activity & Updates</h1>
-            <p className="text-xl text-gray-200">
+            <p className="text-xl text-blue-900">
               Stay informed about the latest happenings, achievements, and events across our university campus.
             </p>
           </div>
@@ -266,7 +266,7 @@ const ActivityUpdates = () => {
             </Card>
 
             {/* Newsletter Subscription */}
-            <Card className="bg-gradient-to-br from-primary to-primary-light text-white" padding="p-6">
+            <Card className="bg-orange-500 text-white" padding="p-6">
               <h3 className="text-xl font-bold mb-4">Stay Updated</h3>
               <p className="text-primary-light mb-4">
                 Subscribe to our newsletter and get the latest updates directly in your inbox.
@@ -280,7 +280,7 @@ const ActivityUpdates = () => {
                 <Button
                   type="submit"
                   variant="secondary"
-                  className="w-full bg-white text-primary hover:bg-gray-100"
+                  className="w-full bg-blue-800 text-primary hover:bg-gray-100"
                 >
                   Subscribe Now
                 </Button>
