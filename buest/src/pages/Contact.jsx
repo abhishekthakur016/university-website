@@ -84,9 +84,9 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-100 to-primary-light text-white py-20">
+      <div className="bg-gradient-to-r from-blue-100 to-primary-light text-white py-[12rem] ">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Contacts us</h1>
           <p className="text-xl text-blue-900 max-w-3xl mx-auto">
             Get in touch with us. We're here to help and answer any questions you might have.
           </p>
@@ -97,8 +97,8 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Contact Information */}
           <div className="lg:col-span-1">
-            <div className="space-y-6">
-              <Card title="Contact Information" padding="p-6">
+            <div className="space-y-6 ">
+              <Card  title="Contact Information" padding="p-6" text="gray-700">
                 <p className="text-gray-600 mb-6">
                   Feel free to reach out to us through any of the following channels. We respond to all inquiries within 24-48 hours.
                 </p>
@@ -140,7 +140,7 @@ const Contact = () => {
 
           {/* Contact Form */}
           <div className="lg:col-span-2">
-            <Card title="Send us a Message" padding="p-8">
+            <Card  title="Send us a Message" padding="p-8">
               {isSubmitted ? (
                 <div className="text-center py-12">
                   <div className="w-20 h-20 mx-auto mb-6 bg-green-100 rounded-full flex items-center justify-center">
